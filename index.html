@@ -7,17 +7,37 @@
 </head>
 <body>
 	<!--  simply centers the elemnt inside it -->
-	<div class="outer-wrapper-center">
-		<nav class="topnav"></nav>
-		<img src="images/Chaedles.png" alt="">
-	</div>
+	<div class="outer-wrapper center full-height">
+		<!-- <nav class="topnav"></nav> -->
+		<div class="top-banner full-width center">
+			<img src="images/Chaedles.png" alt="">
+			<p>Phat Beats for all your beating needs</p>
+		</div>
+		<div class="media-player-wrapper">
+			<audio controls>
+				<source src="test.mp3" type="audio/mpeg">
+				</audio>
+				<ol>
+					<li class="song"></li>
+					<li class="song"></li>
+					<li class="song"></li>
+					<li class="song"></li>
+					<li class="song"></li>
+					<li class="song"></li>
+					<li class="song"></li>
+					<li class="song"></li>
+				</ol>
+			</div>
+
+		</div>
+		<footer>
+			<p>This be the footer</p>
+		</footer>
 
 
-	
-
-	<script src="index.js"></script>
-	<script id="__bs_script__">
-    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.26.4'><\/script>".replace("HOST", location.hostname));
-	</script>
-</body>
-</html>
+		<script src="index.js"></script>
+		<script id="__bs_script__">
+			document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.26.4'><\/script>".replace("HOST", location.hostname));
+		</script>
+	</body>
+	</html>

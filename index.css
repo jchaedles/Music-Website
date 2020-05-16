@@ -1,0 +1,18 @@
+.outer-wrapper {
+  display: flex;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.chaedles-pic {
+  height: 300px;
+}
+
+.red {
+  background: #f00;
+}
+
+/*# sourceMappingURL=index.css.map */

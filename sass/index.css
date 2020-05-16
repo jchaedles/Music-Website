@@ -1,0 +1,12 @@
+.outer-wrapper-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chaedles-pic {
+  height: 301px;
+  background-color: blue;
+}
+
+/*# sourceMappingURL=index.css.map */

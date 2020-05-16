@@ -1,3 +1,3 @@
 @ECHO OFF
-start "" sass --watch ./
+start "" sass --watch sass/:styles/
 start "" browser-sync start --server
